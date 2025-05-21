@@ -1,6 +1,7 @@
-authorization.service.special.chars: "!,@,#,$,%,^,&,*,(,)"
-spring.datasource.username: your_username
-spring.datasource.driver-class-name: org.postgresql.Driver
-spring.jpa.hibernate.ddl-auto: update
+---
+authorization.service.special.chars: "!,@,#,$,%,^,&,*,(,),?"
+spring.datasource.username: "your_username"
+spring.datasource.driver-class-name: "org.postgresql.Driver"
+spring.jpa.hibernate.ddl-auto: "update"
 spring.jpa.show-sql: true
-spring.jpa.properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
