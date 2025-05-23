@@ -1,5 +1,5 @@
 ---
-authorization.service.special.chars: "!,@,#,$,%,^,&,*,(,)"
+authorization.service.special.chars: "!,@,#,$,%,^,&,*,(,),?"
 spring.datasource.username: "your_username"
 spring.datasource.driver-class-name: "org.postgresql.Driver"
 spring.jpa.hibernate.ddl-auto: "update"
